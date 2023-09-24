@@ -29,7 +29,7 @@ d3.json(geoData).then(function(data) {
 
     // Loop through the features array, and create one marker for each features object.
     for (let i = 0; i < features.length; i++) {
-
+        console.log(features)
         let coordinates= [features[i].geometry.coordinates[1],features[i].geometry.coordinates[0]]
         if (features[i].geometry.coordinates[2]<10)
         {
@@ -57,7 +57,7 @@ d3.json(geoData).then(function(data) {
         // Setting our circle's radius to equal the output of our markerSize() function:
         // This will make our marker's size proportionate to its population.
         radius: features[i].properties.mag*10000
-        }).bindPopup(`<h1>${features[i].properties.title}</h1> <hr> <h3>Place: ${features[i].properties.place}</h3><h3>Magnitude: ${features[i].properties.mag}</h3>`).addTo(myMap);
+        }).bindPopup(`<h3>Magnitude: ${features[i].properties.mag}</h3> <h3>Location: ${features[i].properties.place}</h3> <h3>Depth: ${features[i].geometry.coordinates[2]} km</h3>`).addTo(myMap);
      }
 
 
