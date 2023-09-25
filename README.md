@@ -14,6 +14,6 @@ I imported and visualized the data by doing the following:
 
 - I created a legend that will provide context for your map data.
 
-- References
+## References:
 Dataset created by the United States Geological SurveyLinks to an external site: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 
