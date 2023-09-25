@@ -51,7 +51,7 @@ d3.json(geoData).then(function(data) {
         color:"white",
         fillColor: fillColorVar,
         // This will make our marker's size proportionate to its magnitude.
-        radius: features[i].properties.mag*10000
+        radius: (1.6**features[i].properties.mag)*10000
         }).bindPopup(`<h3>Magnitude: ${features[i].properties.mag}</h3> <h3>Location: ${features[i].properties.place}</h3> <h3>Depth: ${features[i].geometry.coordinates[2]} km</h3>`).addTo(myMap);
      }
     // Define an array with legend colors and labels
