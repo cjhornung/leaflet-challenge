@@ -2,7 +2,8 @@
 Goal: developing a way to visualize USGS data that will allow for better education of the public and other government organizations on issues facing our planet
 
 ## Earthquake Visualization
-![Screenshot 2023-09-24 190739](https://github.com/cjhornung/leaflet-challenge/assets/134234019/4798022d-b9c4-41ee-8636-6476f6999e66)
+![Screenshot 2023-09-24 190739](https://github.com/cjhornung/leaflet-challenge/assets/134234019/baa9c384-d108-4863-8310-6a61f90a7f72)
+
 
 I imported and visualized the data by doing the following:
 
